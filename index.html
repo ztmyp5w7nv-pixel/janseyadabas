@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Jansey Adabaş | 24 Kasım Öğretmenler Günü</title>
+  <link rel="stylesheet" href="style.css?v=2" />
+</head>
+<body>
+  <div class="mobile-shell">
+    <header class="top-bar">
+      <a class="insta-btn" href="https://www.instagram.com/janseyadabas/" target="_blank" rel="noopener noreferrer" aria-label="Instagram @janseyadabas">
+        <img class="insta-icon" src="instagram.png" alt="Instagram" width="24" height="24" />
+        <span>@janseyadabas</span>
+      </a>
+    </header>
+
+    <main class="container">
+      <section class="hero reveal">
+        <div class="polaroid-wrap">
+          <span class="tape tape-tl" aria-hidden="true"></span>
+          <span class="tape tape-tr" aria-hidden="true"></span>
+          <figure class="polaroid">
+            <div class="polaroid-img-box">
+              <img src="image1.jpg" alt="Jansey Adabaş" />
+            </div>
+            <figcaption>Jansey Adabaş</figcaption>
+          </figure>
+        </div>
+
+        <div class="hero-copy">
+          <span class="badge">24 Kasım Öğretmenler Günü</span>
+          <h1>Kelimelere değer katan bir edebiyat yolculuğu</h1>
+          <p>Edebiyatın izinde, saygı ve sevgiyle hazırlanmış özel bir kutlama sayfası.</p>
+        </div>
+      </section>
+
+      <section class="books-section reveal" aria-labelledby="booksTitle">
+        <div class="section-head">
+          <h2 id="booksTitle">Sevilen 4 Kitap &amp; Edebi İzler</h2>
+          <span class="section-pill">4 Eser</span>
+        </div>
+
+        <div class="book-controls" role="tablist" aria-label="Kitap seçimi">
+          <button type="button" class="book-chip active" data-book="0">İnce Memed</button>
+          <button type="button" class="book-chip" data-book="1">Vadideki Zambak</button>
+          <button type="button" class="book-chip" data-book="2">İnsanın Acısını İnsan Alır</button>
+          <button type="button" class="book-chip" data-book="3">Puslu Kıtalar Atlası</button>
+        </div>
+
+        <article class="quote-card" id="quoteCard" data-theme="coral">
+          <div class="quote-top">
+            <div>
+              <strong class="book-title" id="quoteBook">İnce Memed</strong>
+              <span class="book-author" id="quoteAuthor">Yaşar Kemal</span>
+            </div>
+            <span class="book-tag" id="quoteTag">Direniş &amp; Umut</span>
+          </div>
+
+          <p class="book-desc" id="quoteDesc"></p>
+
+          <blockquote class="book-quote" id="quoteText"></blockquote>
+
+          <div class="book-comment-box">
+            <span class="comment-label">Edebi Yorum</span>
+            <p class="book-comment" id="quoteComment"></p>
+          </div>
+        </article>
+      </section>
+
+      <section class="video-section reveal">
+        <h2>Düzce Öğretmenler Korosu — Odalarda Işıksızım</h2>
+        <div class="video-frame">
+          <video controls playsinline preload="metadata" poster="image2.jpg">
+            <source src="https://huggingface.co/datasets/gokalpemirbas81/jansey/resolve/main/muzik.mp4?download=true" type="video/mp4" />
+            Tarayıcınız video etiketini desteklemiyor.
+          </video>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>
